@@ -1,3 +1,0 @@
-node1 , CCU1
-CCU1 , node1,node2
-NodeNameExceedsMaxLength,CCU1

@@ -1,2 +1,0 @@
-,node_bravo
-node_bravo,CCU11, node1

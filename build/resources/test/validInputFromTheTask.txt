@@ -1,8 +1,0 @@
-node1 , CCU1
-CCU1 , node1,node2
-node2,CCU1
-node3,CCU2
-CCU2,node3, node4
-node4, CCU2 , node5
-node5 , node4 ,node6
-node6 , node5
