@@ -1,0 +1,56 @@
+SDET challenge
+In this exercise nodes should secure connections with each other in order to be able to pass messages .
+The connection is established if the nodes are located within 1 metre distance from each other or via a Central Communication Units (CCU) .
+
+Please see the example below .
+
+
+
+In the diagram above
+node1 and node2 are not located within 1 metre from each other , but they are connected via CCU1 .
+Node4 , node5 and node6 are within 1 metre range , so they can communicate , In addition , node3 and node4 are connected via CCU2 which means all 4 nodes (node3 ,node4,node5,node6) are connected .
+
+
+The task is to program a calculator that given a specific input (described below) outputs the maximum number of units (not Including CCUs) that are connected , i.e. located within 1 metre from each other or via the CCU unit.
+
+
+The input is consists of the details of the units, as follows:
+node1, node2,569,CCU5,node7, ……
+node177, CCU13 , texas , …
+CCU1 , Florida …
+…
+
+Each line of the file contains a comma-separated set of fields.
+The first field on each line is the name of a node (as a string), and the remaining fields are the names of the nodes located within 1 metre range  or CCUs that are connected to the node .
+Node names can be anything and  have a maximum length of 20 characters .
+Central Communication Units (CCUs) names always start with the string “CCU”, followed by a numeric.
+Assume the input is a valid representation of a connected unit network
+
+The program should read any provided input file and if valid, print the answer to standard output. If the input data is not in the expected format, the program should output a
+user-friendly error message pointing out the problem.
+
+The diagram above could be represented by the following input file:
+node1, CCU1
+CCU1 , node1 , node2
+node2 , CCU1
+node3  , CCU2
+CCU2 , node3 , node4
+node4 , CCU2 , node5
+node5 , node4 , node6
+node6 , node5
+
+
+In this example the calculator should output 4.
+The maximum group of connected nodes consists of node3,node4,node5 ,node6 where
+node4,node5 and node6 are located within 1 metre distance from each other and node3 connected to node4 via the CCU2.
+
+Objectives
+The program should be designed as though ready for a code review and to be pushed to an internal code repository.
+Please include necessary documents  that explain how to compile and run your solution and any assumptions that you make .
+Please include any necessary automated tests .
+The solution can be implemented in the language of your choice.
+Use of available 3rd party libraries is acceptable.
+
+Please let us know how much time you ended up developing the solution.
+Please do not hesitate to contact us if you have any questions about the problem
+statement, objectives, etc .

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.alexOssin.CommsGroupServiceTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2023-01-05T09:15:19" hostname="it031147.local" time="0.129">
+  <properties/>
+  <testcase name="process_processValidInput_noException()" classname="com.alexOssin.CommsGroupServiceTest" time="0.013"/>
+  <testcase name="process_singleUnitInput_throwsException()" classname="com.alexOssin.CommsGroupServiceTest" time="0.028"/>
+  <testcase name="containsByUnitName_unitExistsInAGroup()" classname="com.alexOssin.CommsGroupServiceTest" time="0.003"/>
+  <testcase name="process_processEmptyInput_noGroupsGenerated()" classname="com.alexOssin.CommsGroupServiceTest" time="0.002"/>
+  <testcase name="calculateGroupWithMAximumNumberOfUnits_NoGroupPresented()" classname="com.alexOssin.CommsGroupServiceTest" time="0.016"/>
+  <testcase name="containsByUnitName_unitDoesntExistInAGroup()" classname="com.alexOssin.CommsGroupServiceTest" time="0.001"/>
+  <testcase name="getGroupByUnitName_unitExistsInAGroup()" classname="com.alexOssin.CommsGroupServiceTest" time="0.003"/>
+  <testcase name="process_containsOnlySATs_throwsException()" classname="com.alexOssin.CommsGroupServiceTest" time="0.004"/>
+  <testcase name="getGroupByName_unitDoesntExistInAnyGroup()" classname="com.alexOssin.CommsGroupServiceTest" time="0.006"/>
+  <testcase name="calculateGroupWithMAximumNumberOfUnits_validInput()" classname="com.alexOssin.CommsGroupServiceTest" time="0.013"/>
+  <testcase name="process_processValidInput_multGroupsGenerated()" classname="com.alexOssin.CommsGroupServiceTest" time="0.004"/>
+  <testcase name="process_processValidInput_groupGenerated()" classname="com.alexOssin.CommsGroupServiceTest" time="0.005"/>
+  <system-out><![CDATA[=============================
+no group with maximum number of units that can communicate a message with each other found 
+=============================
+=============================
+maximum number of units that can communicate a message with each other is : 3
+=============================
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

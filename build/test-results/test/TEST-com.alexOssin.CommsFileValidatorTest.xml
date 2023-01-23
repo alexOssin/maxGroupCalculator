@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.alexOssin.CommsFileValidatorTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2023-01-05T09:15:20" hostname="it031147.local" time="0.037">
+  <properties/>
+  <testcase name="validate_validLine_noExceptionThrown()" classname="com.alexOssin.CommsFileValidatorTest" time="0.004"/>
+  <testcase name="validate_emptyLine_throwsException()" classname="com.alexOssin.CommsFileValidatorTest" time="0.004"/>
+  <testcase name="validate_noVizUnits_throwsException()" classname="com.alexOssin.CommsFileValidatorTest" time="0.002"/>
+  <testcase name="validate_unitNameExceedsMaxLength_throwsException()" classname="com.alexOssin.CommsFileValidatorTest" time="0.008"/>
+  <testcase name="validate_emptyUnitName_throwsException()" classname="com.alexOssin.CommsFileValidatorTest" time="0.013"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

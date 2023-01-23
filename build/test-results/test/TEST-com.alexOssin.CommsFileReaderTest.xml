@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.alexOssin.CommsFileReaderTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-01-05T09:15:20" hostname="it031147.local" time="0.169">
+  <properties/>
+  <testcase name="read_validInputFile_verifyLineNumbering()" classname="com.alexOssin.CommsFileReaderTest" time="0.047"/>
+  <testcase name="read_emptyInputFile_verifyGeneratedOutput()" classname="com.alexOssin.CommsFileReaderTest" time="0.006"/>
+  <testcase name="read_validInputFile_verifyGeneratedOutput()" classname="com.alexOssin.CommsFileReaderTest" time="0.115"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.alexOssin.CommsUnitTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2023-01-05T09:15:20" hostname="it031147.local" time="0.015">
+  <properties/>
+  <testcase name="isSatellite_startsWithSATNotFollowedByNumeric()" classname="com.alexOssin.CommsUnitTest" time="0.002"/>
+  <testcase name="isSatellite_satelightUnitName()" classname="com.alexOssin.CommsUnitTest" time="0.002"/>
+  <testcase name="isSatellite_lowerCaseSAT()" classname="com.alexOssin.CommsUnitTest" time="0.004"/>
+  <testcase name="isSatellite_emptyUnitName()" classname="com.alexOssin.CommsUnitTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

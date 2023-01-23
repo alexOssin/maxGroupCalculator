@@ -1,0 +1,4 @@
+
+node1 , CCU1
+CCU1 , node1,node2
+node2,CCU1

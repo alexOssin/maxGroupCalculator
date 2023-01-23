@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.alexOssin.CommsGroupTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2023-01-05T09:15:19" hostname="it031147.local" time="0.06">
+  <properties/>
+  <testcase name="containsByUnitName_emptyUnitList_unitDoesntExist()" classname="com.alexOssin.CommsGroupTest" time="0.036"/>
+  <testcase name="containsByUnitName_unitExists()" classname="com.alexOssin.CommsGroupTest" time="0.002"/>
+  <testcase name="addAll_addListOfUnits()" classname="com.alexOssin.CommsGroupTest" time="0.011"/>
+  <testcase name="add_addSatellite()" classname="com.alexOssin.CommsGroupTest" time="0.002"/>
+  <testcase name="add_addTeam()" classname="com.alexOssin.CommsGroupTest" time="0.002"/>
+  <testcase name="containsByUnitName_unitDoesntExist()" classname="com.alexOssin.CommsGroupTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.alexOssin.CommsLineParserTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2023-01-05T09:15:20" hostname="it031147.local" time="0.032">
+  <properties/>
+  <testcase name="parseCommsLine_teamVisibleUnit_generateTeamTypeUnit()" classname="com.alexOssin.CommsLineParserTest" time="0.004"/>
+  <testcase name="parseCommsLine_multVizUnits()" classname="com.alexOssin.CommsLineParserTest" time="0.002"/>
+  <testcase name="parseCommsLine_singleCommaLine()" classname="com.alexOssin.CommsLineParserTest" time="0.001"/>
+  <testcase name="parseCommsLine_fullLine()" classname="com.alexOssin.CommsLineParserTest" time="0.003"/>
+  <testcase name="parseCommsLine_noFirstField()" classname="com.alexOssin.CommsLineParserTest" time="0.001"/>
+  <testcase name="parseCommsLine_parseEmptyLine()" classname="com.alexOssin.CommsLineParserTest" time="0.001"/>
+  <testcase name="parseCommsLine_nullStringToParse_throwsException()" classname="com.alexOssin.CommsLineParserTest" time="0.003"/>
+  <testcase name="parseCommsLine_satelliteVisibleUnit_generateSatTypeUnit()" classname="com.alexOssin.CommsLineParserTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
